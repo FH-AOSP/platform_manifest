@@ -32,9 +32,10 @@
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="fh" />
   <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="fh" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="fh" />
-  
-  
+  <project path="vendor/fh" name="vendor_fh" remote="fh" />
   <!-- FH-AOSP -->
+  
+  
   <!-- Masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
   <!-- Masquerade -->
