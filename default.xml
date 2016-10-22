@@ -19,7 +19,7 @@
            sync-j="4" />
   <!-- FH-AOSP -->
   <project path="art" name="art" remote="fh" />
-  <project name="build" path="build" remote="fh" revision="n7-fh" >
+  <project name="platform_build" path="build" remote="fh" revision="n7-fh" >
   <copyfile src="core/root.mk" dest="Makefile" />
      </project>
   <project path="bootable/recovery" name="bootable_recovery" remote="fh" />
